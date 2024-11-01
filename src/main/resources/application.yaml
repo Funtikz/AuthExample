@@ -1,0 +1,29 @@
+#??? ??????
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://db_pg_15:5432/exampledb
+#    username: nikita
+#    password: 12345
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+#??? ?????? ? spring
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Rostov
+    username: postgres
+    password: 3200558819
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
